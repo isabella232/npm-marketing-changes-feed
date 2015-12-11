@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/npm/npm-marketing-changes-feed/issues"
   },
-  "homepage": "https://github.com/npm/npm-marketing-changes-feed#readme"
+  "homepage": "https://github.com/npm/npm-marketing-changes-feed#readme",
+  "devDependencies": {
+    "tap": "^2.3.1"
+  }
 }
