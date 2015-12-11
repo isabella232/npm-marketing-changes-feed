@@ -1,0 +1,19 @@
+{
+  "name": "npm-marketing-changes-feed",
+  "version": "1.0.0",
+  "description": "Replciate data into a changes feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npm/npm-marketing-changes-feed.git"
+  },
+  "author": "Aria Stewart <aria@npmjs.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/npm/npm-marketing-changes-feed/issues"
+  },
+  "homepage": "https://github.com/npm/npm-marketing-changes-feed#readme"
+}
