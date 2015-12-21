@@ -1,0 +1,12 @@
+{
+  "connection": {
+    "driver": "pg",
+    "user": "postgres",
+    "host": "localhost",
+    "database": "billing"
+  },
+  "pool": {
+    "min": 0,
+    "max": 7
+  }
+}
