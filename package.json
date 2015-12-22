@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/npm/npm-marketing-changes-feed#readme",
   "devDependencies": {
+    "esformatter": "^0.8.1",
     "tap": "^2.3.1"
   },
   "dependencies": {
