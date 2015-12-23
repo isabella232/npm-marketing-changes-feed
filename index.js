@@ -10,7 +10,7 @@ P.promisifyAll(confit(__dirname)).createAsync().then(function(config) {
     pool: config.get('pool')
   });
 
-  return db('users').where('created', '>', knex.raw('now() - interval \'1 hour\'')).then(console.log)
+  return db('customers').where('created', '>', knex.raw('now() - interval \'12 hour\'')).then(console.log)
 }).catch(function(err) {
   console.warn(err.stack);
   process.exit(1);
